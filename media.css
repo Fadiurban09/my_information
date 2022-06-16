@@ -1,0 +1,608 @@
+@media (max-width:1290px) {
+
+    .left-box header {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .left-box header nav {
+        width: 80%;
+
+    }
+
+    .left-box header nav a {
+        font-size: 1.2em;
+
+    }
+
+    .left-box .container .contact {
+        top: -5em;
+    }
+
+    .left-box .container .info p:nth-child(4) {
+        width: 90%;
+    }
+
+    .left-box .container .contact {
+        top: -5em;
+    }
+}
+
+@media (max-width:850px) {
+    .home-page {
+        grid-template-columns: 1fr;
+    }
+
+    .box.left-box {
+        height: 75vh;
+    }
+
+    .left-box .container .contact {
+        top: 0em;
+    }
+
+    .box.right-box {
+        height: 50vh;
+    }
+
+    .right-box .image-box img {
+        transform: scale(1.2);
+
+    }
+}
+
+@media (max-width:430px) {
+    body {
+        font-size: 14px;
+    }
+
+}
+
+.left-box .container .info p:nth-child(4) {
+    width: 92% !important;
+}
+
+.left-box .container .info h1 {
+    font-size: 3em;
+
+}
+
+.left-box .container .info h2 {
+    font-size: 1.5em;
+
+}
+
+.box.right-box .image-box img {
+    transform: scale(1);
+
+}
+
+@media (max-width:290px) {
+    body {
+        font-size: 12px;
+    }
+
+    .box.left-box .container {
+        padding: 0 1em;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**secend-page***/
+
+
+@media (max-width:1380px) {
+    .secend-page .container .image .img {
+        width: 80%;
+        height: 70%;
+    }
+}
+
+@media (max-width:1160px) {
+    .secend-page .container .image .img {
+        width: 70%;
+        height: 60%;
+    }
+
+    .secend-page .container .info p {
+        width: 80%;
+    }
+}
+
+@media (max-width:875px) {
+    .secend-page .container .image .img {
+        width: 80%;
+        height: 50%;
+    }
+
+    .secend-page .container .info p {
+        width: 95%;
+        padding-right: 1.7em;
+    }
+}
+
+@media (max-width:650px) {
+    .secend-page .container {
+        grid-template-columns: 1fr;
+    }
+
+    .secend-page .container .box-2 {
+        height: 50vh;
+        padding-left: 2em;
+    }
+
+    .secend-page .container .image {
+        order: 2;
+        height: 60vh;
+        overflow: visible;
+        margin-top: -2em;
+    }
+
+    .secend-page .container .image .img {
+        width: 60%;
+        height: 90%;
+    }
+
+    .secend-page .container .info p {
+        width: 95%;
+        padding-right: 1.7em;
+    }
+}
+
+@media (max-width:500px) {
+
+    .secend-page .container .image .img {
+        width: 80%;
+        height: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .secend-page .container .info {
+        height: 55vh;
+        padding-bottom: 1em;
+    }
+
+    .secend-page .container .image .img {
+        width: 80%;
+        height: 55%;
+        margin-top: -5em;
+    }
+}
+
+@media (max-width:320px) {
+    body {
+        font-size: 15px;
+    }
+
+    .secend-page .container .info {
+        height: 60vh;
+        justify-content: flex-start;
+
+    }
+
+    .secend-page .container .image {
+        align-items: center;
+
+    }
+
+    .secend-page .container .image .img {
+        width: 90%;
+        height: 55%;
+        margin-top: -9em;
+    }
+}
+
+@media (max-width:272px) {
+    body {
+        font-size: 14px !important;
+    }
+
+    .secend-page .container .info {
+        height: 50vh;
+        justify-content: flex-start;
+
+    }
+
+    .secend-page .container .image {
+        align-items: center;
+
+
+    }
+
+    .secend-page .container .image .img {
+        width: 100%;
+        height: 50%;
+        margin-top: -10em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**service-page***/
+@media(max-width:1120px) {
+    .service-page .container .cards {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .service-page .container .cards .up-card:last-child {
+        grid-column: span 2;
+        margin-top: 2em;
+
+    }
+
+}
+
+@media(max-width:780px) {
+
+    .service-page .container .cards .up-card {
+        grid-column: span 2;
+        margin-top: 2em;
+    }
+}
+
+@media(max-width:400px) {
+    .service-page .container .cards .up-card .card {
+        width: 90%;
+        background-color: #ff813de3;
+
+    }
+}
+
+@media(max-width:350px) {
+    body {
+        font-size: 14.5px !important;
+    }
+}
+
+
+@media(max-width:300px) {
+    .service-page .container .cards .up-card .card img {
+        margin-bottom: 1em;
+    }
+
+    .service-page .container .cards .up-card .card p {
+        width: 100%;
+        margin-top: 0.5em;
+
+    }
+}
+
+@media(max-width:265px) {
+    .service-page .container .cards .up-card .card h3::first-letter {
+        color: #FF803D;
+    }
+
+    .service-page .container .cards .up-card .card {
+        height: 35em;
+    }
+
+    .service-page .container .cards .up-card:last-child .card {
+        height: 30em;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/**project-page***/
+@media (max-width:1465px) {
+    .project-page .container .all-box-3 {
+        grid-template-columns: repeat(3, 20em);
+    }
+}
+
+@media (max-width:1340px) {
+    .project-page .container .all-box-3 {
+        grid-template-columns: repeat(3, 19em);
+    }
+
+    .project-page .container .all-box-3 .box-3 .image {
+        width: 90%;
+    }
+
+    .project-page .container .all-box-3 .box-3 .info {
+        width: 10%;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:1283px) {
+
+    .project-page .container .all-box-3 {
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 19em);
+    }
+
+    .project-page .container .all-box-3 .box-3 {
+        height: 30em;
+    }
+
+}
+
+@media (max-width:864px) {
+
+    .project-page .container .all-box-3 {
+        width: 100%;
+        height: calc(45em *3);
+        grid-template-columns: repeat(1, 25em);
+
+    }
+
+    .project-page .container .all-box-3 .box-3 {
+        height: 40em;
+    }
+
+    .project-page .container .all-box-3 .box-3 .info {
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width:550px) {
+    body {
+        font-size: 15px;
+
+    }
+
+    .project-page {
+        height: 320vh;
+    }
+
+    .project-page .container .all-box-3 {
+        width: 100%;
+        height: calc(40em *3);
+        grid-template-columns: repeat(1, 80%);
+
+    }
+
+    .project-page .container .all-box-3 .box-3 {
+        height: 35em;
+    }
+
+    .project-page .container .all-box-3 .box-3 .info {
+        font-size: 1.1em;
+    }
+
+}
+
+/**learn-page***/
+@media (max-width:1856px) {
+    .learn-page .container-1 {
+        width: 100%;
+
+    }
+}
+
+@media (max-width:1770px) {
+    .learn-page .container-1 .box:first-child .image img {
+        object-fit: fill;
+
+    }
+}
+
+@media (max-width:1600px) {
+    .learn-page .container-1 {
+        width: 95%;
+        height: 35%;
+
+    }
+
+    .learn-page .container-1 .box .info h2 {
+        font-size: 1.4em;
+    }
+
+    .learn-page .container-1 .box .info a {
+        font-size: 1.1em;
+    }
+
+}
+
+@media (max-width:1450px) {
+    .learn-page .container-1 {
+        width: 90%;
+        height: 45%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .learn-page .container-1 .box {
+        background-color: red;
+        width: 100%;
+        height: 100%;
+        grid-row: span 2;
+        grid-column: span 2;
+        background-color: #FF803D;
+    }
+
+    .learn-page .container-1 .box .image img {
+        object-position: top;
+    }
+
+    .learn-page .container-1 .box:first-child {
+        grid-column: span 4;
+        grid-row: span 3;
+    }
+
+
+
+}
+
+@media (max-width:1080px) {
+
+    .learn-page .container-1 .box .info h2 {
+        font-size: 1.2em;
+    }
+
+    .learn-page .container-1 .box .info a {
+        font-size: 1em;
+    }
+
+}
+@media (max-width:1020px) {
+    .learn-page .container-1 {
+        width: 100%;
+    }
+}
+@media (max-width:970px) {
+
+    .learn-page .container-1 .box {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width:970px){
+    body{
+        font-size: 15px;
+    }
+}
+@media (max-width:820px){
+ 
+    .learn-page .container-1 .box {
+        width: 100%;
+        height: 100%;
+       
+    }
+     .learn-page .container-1 .box:first-child .image img {
+        object-fit: cover;
+    }
+
+
+}
+
+@media (max-width:750px){
+    
+    .learn-page .container-1 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        height: 80%;
+    }
+    .learn-page .container-1 .box {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        grid-row: span 3;
+    }
+
+    .learn-page .container-1 .box:first-child{
+        grid-column: span 1 ;
+        grid-row: span 3;
+    }  
+     .learn-page .container-1 .box:first-child .image img {
+        object-fit: cover;
+        object-position: right;
+    }
+
+
+    .learn-page .container-1 .box .info{
+        font-size: 1.5em;
+    }
+    .learn-page .container-1 .box:first-child .info{
+        font-size: 1.5em;
+    }
+
+}
+@media (max-width:590px){
+    
+    .learn-page .container-1 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        width: 95%;
+
+    }
+    .learn-page .container-1 .box {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:480px){
+body{
+    font-size: 14px;
+}
+}
+@media (max-width:435px){
+body{
+    font-size: 13px;
+}
+.learn-page .container-1 .box .info{
+    flex-direction: column;
+}
+.learn-page .container-1 .box .info h2 {
+    font-size: 1em;
+}
+
+.learn-page .container-1 .box .info a {
+    font-size: 1em;
+}
+}
+@media (max-width:340px){
+    .learn-page .container-1 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        width: 95%;
+        height: 40%;
+
+    }
+    .learn-page .container-1 .box {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        grid-row: span 1;
+    }
+
+    .learn-page .container-1 .box:first-child{
+        grid-column: span 2 ;
+        grid-row: span 1;
+    }  
+    .learn-page .container-1 .box:first-child .image img{
+        width: 100%;
+        height: 100%;
+        object-position: center ;
+        object-fit: cover;
+    }
+
+}
+@media (max-width:315px){
+body{
+    font-size: 12px !important;
+}
+}
